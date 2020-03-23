@@ -20,7 +20,7 @@ Sample command with 30 trees and reduce the dimensionality to 10:
 
 `EvaluatePrequential -l (meta.CS_AdaptiveRandomForest -l (CS_ARFHoeffdingTree -a 10) -s 30) -s (ArffFileStream -f /pathto/tweet500.arff) -e BasicClassificationPerformanceEvaluator`
 
-Explanation: this command executes CS-kNN prequential evaluation precising the output and input dimensionality, d and f respectively on the tweet500 dataset (-f tweet1.arff). 
+Explanation: this command executes CS-kNN prequential evaluation precising the output and input dimensionality, d and f respectively on the tweet500 dataset (-f tweet500.arff). 
 **Make sure to extract the tweet500.arff dataset, and setting -f to its location (pathto), before executing the command.**
 
 ## Datasets used in the original paper
