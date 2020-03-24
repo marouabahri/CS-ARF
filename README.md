@@ -24,4 +24,4 @@ Explanation: this command executes CS-kNN prequential evaluation precising the o
 **Make sure to extract the tweet500.arff dataset, and setting -f to its location (pathto), before executing the command.**
 
 ## Datasets used in the original paper
-The real datasets are compressed and available at the root directory. 
+The datasets used in this work are compressed and available at the root directory. 
